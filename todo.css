@@ -1,0 +1,145 @@
+
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    min-width: 250px;
+    opacity: 0.9;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+.your{
+    margin-left: 2.2rem;
+    font-family:'Courier New', Courier, monospace;
+}
+  ul li {
+    /* cursor: pointer; */
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    font-family:'Courier New', Courier, monospace;
+   
+
+
+   
+  }
+  
+
+  
+  .header {
+   
+    padding: 30px 40px;
+    color:black;
+    text-align: center;
+
+  }
+  
+
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  input {
+    margin: 0;
+    border: 1px solid #de6590;
+    width: 75%;
+    padding: 9px;
+    float: left;
+    font-size: 16px;
+  }
+  
+
+  .button {
+    padding: 10px;
+    width: 15%;
+    background: #DE6590;
+    color:#f9f9f9;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  
+  .button:hover {
+    background-color: #f0afc6;
+  }
+
+  ::placeholder{
+      color: #de6590;
+      font-family:'Courier New', Courier, monospace;
+  }
+  hr {
+    border:none;
+    border-top:1px dotted #DE6590;
+    color:#fff;
+    background-color:#fff;
+    height:2px;
+    width:90%;
+    margin-top: 4rem;
+  }
+
+  .close {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+  }
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: .5;
+  }
+
+  h2{
+      margin-bottom: 3rem;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-family:'Courier New', Courier, monospace;
+      font-weight:100 ;
+
+   
+
+  }
+
+
+  #clear{
+    position: relative;
+    left: 45%;
+    height: 2rem;
+    background-color: #de6590;
+    border: none;
+    color: #eee;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  #clear:hover{
+    background-color: #f0afc6;
+  }
+
+  img{
+    height: 9rem;
+    margin-top: 10px;
+
+  }
